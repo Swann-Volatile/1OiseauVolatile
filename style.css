@@ -1,0 +1,163 @@
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center; 
+  /* Les tailles des polices doivent etre en rem */
+  font-size: 2.5rem;
+  /* text-shadow permet de mettre une ombre au texte */
+  text-shadow: 3px 3px 8px;
+  color: rgb(148, 15, 15);
+  font-family: Oswald, sans-serif;
+}
+body{
+  text-align: center;
+  font-family: "DMSerif",verdana;
+  background: url(C:/Users/Brun/Downloads/OiseauxV.jpg) center / cover;
+}
+
+/* Centrer le contenu de l'en-tête */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f8f8f8; /* Optionnel : pour voir le conteneur */
+  padding: 10px 0; /* Optionnel : pour ajouter de l'espace autour des liens */
+}
+
+.header a {
+  margin: 0 15px; /* Optionnel : pour ajouter de l'espace entre les liens */
+  
+  
+  display: inline-block; /* Assurez-vous que les liens sont en ligne */
+}
+
+/* Centrer les éléments de la navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8; /* Optionnel : pour voir le conteneur */
+  padding: 10px 0; /* Optionnel : pour ajouter de l'espace autour des liens */
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px; /* Espace entre les éléments de la liste */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000; /* Couleur du texte */
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Styles pour le formulaire */
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 80%;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #148f77;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #117a65;
+}
+
+a {
+  color: #148f77;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#formulaire label {
+  margin-top: 10px;
+}
+
+#formulaire input,
+#formulaire select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#formulaire button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #148f77;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#formulaire button:hover {
+  background-color: #117a65;
+}
+
+/* Styles pour le footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer a {
+  display: block;
+  margin: 5px 0;
+  color: #148f77;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.reduced-image {
+  width: 0;
+  %; /* ou toute autre valeur souhaitée */
+  height: auto; /* pour maintenir le ratio d'aspect */
+}
+````
